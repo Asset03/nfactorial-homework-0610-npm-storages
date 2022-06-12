@@ -1,0 +1,17 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "pushToGit":"git init & git add . & git commit -m'done' & git branch -M main & git remote add origin https://github.com/asethub/nfactorial-homework-0610-npm-storages.git & git push -u origin main"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
